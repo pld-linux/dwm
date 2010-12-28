@@ -1,7 +1,10 @@
+#
+# TODO: BRs
+#
 Summary:	Dynamic window manager for X
 Name:		dwm
 Version:	5.8.2
-Release:	1
+Release:	0.1
 License:	MIT
 Group:		X11/Window Managers
 Source0:	http://dl.suckless.org/dwm/%{name}-%{version}.tar.gz
