@@ -1,11 +1,11 @@
 Summary:	Dynamic window manager for X
 Name:		dwm
-Version:	5.8.2
+Version:	5.9
 Release:	1
 License:	MIT
 Group:		X11/Window Managers
 Source0:	http://dl.suckless.org/dwm/%{name}-%{version}.tar.gz
-# Source0-md5:	f0b422bfeaa812d66c6dd15c3cc92a6b
+# Source0-md5:	2799f885c05817ca112d521bb247f797
 Patch0:		%{name}-flags.patch
 URL:		http://dwm.suckless.org/
 BuildRequires:	xorg-lib-libXinerama-devel

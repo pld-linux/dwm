@@ -26,17 +26,17 @@
  
  clean:
  	@echo cleaning
---- dwm-5.8.2/config.mk~	2010-06-04 12:39:15.000000000 +0200
-+++ dwm-5.8.2/config.mk	2010-12-27 10:57:43.983535334 +0100
-@@ -20,9 +20,9 @@
- 
+--- dwm-5.9/config.mk~	2011-07-10 22:24:25.000000000 +0200
++++ dwm-5.9/config.mk	2011-08-12 13:49:51.859091895 +0200
+@@ -21,9 +21,9 @@
  # flags
  CPPFLAGS = -DVERSION=\"${VERSION}\" ${XINERAMAFLAGS}
--CFLAGS = -g -std=c99 -pedantic -Wall -O0 ${INCS} ${CPPFLAGS}
-+CFLAGS = -g -std=c99 -pedantic -Wall ${INCS} ${CPPFLAGS}
- #CFLAGS = -std=c99 -pedantic -Wall -Os ${INCS} ${CPPFLAGS}
--LDFLAGS = -g ${LIBS}
-+LDFLAGS = -g
- #LDFLAGS = -s ${LIBS}
+ #CFLAGS = -g -std=c99 -pedantic -Wall -O0 ${INCS} ${CPPFLAGS}
+-CFLAGS = -std=c99 -pedantic -Wall -Os ${INCS} ${CPPFLAGS}
++CFLAGS = -std=c99 -pedantic -Wall ${INCS} ${CPPFLAGS}
+ #LDFLAGS = -g ${LIBS}
+-LDFLAGS = -s ${LIBS}
++LDFLAGS = -s
  
  # Solaris
+ #CFLAGS = -fast ${INCS} -DVERSION=\"${VERSION}\"
